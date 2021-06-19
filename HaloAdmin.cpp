@@ -15,7 +15,7 @@ int main()
     GetWindowRect(console, &ConsoleRect);
     MoveWindow(console, ConsoleRect.left, ConsoleRect.top, 270, 150, TRUE);
 
-    SetConsoleTitle(TEXT("BK Admin v0.1"));
+    SetConsoleTitle(TEXT("Halo Admin v0.1"));
 
     HANDLE  hConsole;
     hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
